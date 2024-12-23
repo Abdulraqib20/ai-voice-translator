@@ -1,0 +1,6 @@
+gradio==4.44.1
+pydantic==2.8.2
+elevenlabs==1.4.1
+translate== 3.6.1
+assemblyai==0.30.0
+python-dotenv==1.0.1

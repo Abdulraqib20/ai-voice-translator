@@ -1,0 +1,535 @@
+2024-12-19 07:25:19,873 - __main__ - INFO - Configuration loaded successfully
+2024-12-19 07:25:19,873 - __main__ - INFO - Loaded configuration values:
+2024-12-19 07:25:19,873 - __main__ - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-19 07:25:19,874 - __main__ - INFO - ELEVENLABS_API_KEY: sk***********************************************c8
+2024-12-19 07:25:19,875 - __main__ - INFO - VOICE_ID: as****************S5
+2024-12-19 07:26:20,935 - __main__ - INFO - Configuration loaded successfully
+2024-12-19 07:26:20,936 - __main__ - INFO - Loaded configuration values:
+2024-12-19 07:26:20,937 - __main__ - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-19 07:26:20,937 - __main__ - INFO - ELEVENLABS_API_KEY: sk***********************************************c8
+2024-12-19 07:26:20,938 - __main__ - INFO - VOICE_ID: as****************S5
+2024-12-19 07:28:24,334 - __main__ - INFO - Configuration loaded successfully
+2024-12-19 07:28:24,335 - __main__ - INFO - Loaded configuration values:
+2024-12-19 07:28:24,336 - __main__ - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-19 07:28:24,336 - __main__ - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-19 07:28:24,336 - __main__ - INFO - VOICE_ID: as****************S5
+2024-12-19 07:29:23,542 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-19 07:29:23,542 - config.appconfig - INFO - Loaded configuration values:
+2024-12-19 07:29:23,543 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-19 07:29:23,543 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-19 07:29:23,543 - config.appconfig - INFO - VOICE_ID: as****************S5
+2024-12-19 07:30:23,723 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-19 07:30:23,723 - config.appconfig - INFO - Loaded configuration values:
+2024-12-19 07:30:23,724 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-19 07:30:23,724 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-19 07:30:23,724 - config.appconfig - INFO - VOICE_ID: as****************S5
+2024-12-19 07:30:24,112 - __main__ - INFO - VoiceTranslator initialized successfully
+2024-12-19 07:30:24,980 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2024-12-19 07:30:25,014 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-19 07:30:25,293 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-19 07:30:25,823 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-19 07:30:26,557 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v2/tunnel-request "HTTP/1.1 200 OK"
+2024-12-19 07:32:54,518 - __main__ - INFO - Starting transcription for file: C:\Users\Dell\AppData\Local\Temp\gradio\95b161be9a4612fdd8422c3fcf6b77a9d91aa9dfa2631f519e8d1a33bfa3714b\audio.wav
+2024-12-19 07:32:58,791 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2024-12-19 07:32:59,201 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2024-12-19 07:32:59,532 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/6941e912-310e-4733-986c-7c5e11de2a92 "HTTP/1.1 200 OK"
+2024-12-19 07:33:02,995 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/6941e912-310e-4733-986c-7c5e11de2a92 "HTTP/1.1 200 OK"
+2024-12-19 07:33:02,996 - __main__ - INFO - Transcription completed successfully
+2024-12-19 07:33:02,997 - __main__ - INFO - Starting text translation
+2024-12-19 07:33:05,461 - __main__ - INFO - Translation to Russian completed
+2024-12-19 07:33:06,825 - __main__ - INFO - Translation to Turkish completed
+2024-12-19 07:33:08,310 - __main__ - INFO - Translation to Swedish completed
+2024-12-19 07:33:09,796 - __main__ - INFO - Translation to German completed
+2024-12-19 07:33:11,610 - __main__ - INFO - Translation to Spanish completed
+2024-12-19 07:33:12,903 - __main__ - INFO - Translation to Japanese completed
+2024-12-19 07:33:12,904 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-19 07:33:14,802 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/astCYLFsAfVQdrdLTbS5?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-19 07:33:14,849 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpdbhfzqaw\278fd072-1300-4f87-b6ec-ddac2bd532da.mp3
+2024-12-19 07:33:14,850 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-19 07:33:17,119 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/astCYLFsAfVQdrdLTbS5?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-19 07:33:17,146 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpdbhfzqaw\1e992eba-00fc-4198-9d6b-e500bab558ac.mp3
+2024-12-19 07:33:17,146 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-19 07:33:18,682 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/astCYLFsAfVQdrdLTbS5?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-19 07:33:18,705 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpdbhfzqaw\00afb3b5-f5ea-483f-8a68-df672b0a24d2.mp3
+2024-12-19 07:33:18,707 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-19 07:33:20,502 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/astCYLFsAfVQdrdLTbS5?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-19 07:33:20,539 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpdbhfzqaw\ca24df5b-c19b-4fb4-8c98-ff2b20a3d206.mp3
+2024-12-19 07:33:20,539 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-19 07:33:22,311 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/astCYLFsAfVQdrdLTbS5?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-19 07:33:22,346 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpdbhfzqaw\213989d0-8c97-4985-b594-533684b9c19e.mp3
+2024-12-19 07:33:22,348 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-19 07:33:24,330 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/astCYLFsAfVQdrdLTbS5?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-19 07:33:24,363 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpdbhfzqaw\9c39b247-2682-4094-bb1f-c809a5664498.mp3
+2024-12-19 23:39:49,467 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-19 23:39:49,467 - config.appconfig - INFO - Loaded configuration values:
+2024-12-19 23:39:49,469 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-19 23:39:49,469 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-19 23:39:49,469 - config.appconfig - INFO - VOICE_ID: as****************S5
+2024-12-19 23:39:50,391 - __main__ - INFO - VoiceTranslator initialized with extended language support
+2024-12-19 23:39:52,145 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/startup-events "HTTP/1.1 200 OK"
+2024-12-19 23:39:52,290 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2024-12-19 23:39:52,349 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-19 23:39:52,877 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-19 23:39:54,593 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v2/tunnel-request "HTTP/1.1 200 OK"
+2024-12-19 23:56:36,806 - __main__ - INFO - Starting transcription for file: C:\Users\Dell\AppData\Local\Temp\gradio\95b161be9a4612fdd8422c3fcf6b77a9d91aa9dfa2631f519e8d1a33bfa3714b\audio.wav
+2024-12-19 23:56:40,239 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2024-12-19 23:56:40,666 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2024-12-19 23:56:41,043 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/08b199d8-dc7d-404c-8e19-a0328a43af3b "HTTP/1.1 200 OK"
+2024-12-19 23:56:44,909 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/08b199d8-dc7d-404c-8e19-a0328a43af3b "HTTP/1.1 200 OK"
+2024-12-19 23:56:48,292 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/08b199d8-dc7d-404c-8e19-a0328a43af3b "HTTP/1.1 200 OK"
+2024-12-19 23:56:51,732 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/08b199d8-dc7d-404c-8e19-a0328a43af3b "HTTP/1.1 200 OK"
+2024-12-19 23:56:55,169 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/08b199d8-dc7d-404c-8e19-a0328a43af3b "HTTP/1.1 200 OK"
+2024-12-19 23:56:55,175 - __main__ - INFO - Transcription completed successfully
+2024-12-19 23:56:55,175 - __main__ - INFO - Starting text translation
+2024-12-19 23:57:01,029 - __main__ - INFO - Translation to Russian completed
+2024-12-19 23:57:02,374 - __main__ - INFO - Translation to Turkish completed
+2024-12-19 23:57:03,845 - __main__ - INFO - Translation to Swedish completed
+2024-12-19 23:57:05,822 - __main__ - INFO - Translation to German completed
+2024-12-19 23:57:07,409 - __main__ - INFO - Translation to Spanish completed
+2024-12-19 23:57:08,841 - __main__ - INFO - Translation to Japanese completed
+2024-12-19 23:57:08,842 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-19 23:57:11,836 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/astCYLFsAfVQdrdLTbS5?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-19 23:57:11,912 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpdbhfzqaw\812902b2-d0b6-4eb2-8c0c-ca56e5a2a24c.mp3
+2024-12-19 23:57:11,912 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-19 23:57:13,610 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/astCYLFsAfVQdrdLTbS5?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-19 23:57:13,658 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpdbhfzqaw\9fc43455-d46b-4f13-9f54-1e3b39119c5a.mp3
+2024-12-19 23:57:13,659 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-19 23:57:15,534 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/astCYLFsAfVQdrdLTbS5?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-19 23:57:15,567 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpdbhfzqaw\55d67a14-30f0-483e-b4d8-2673196a716c.mp3
+2024-12-19 23:57:15,568 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-19 23:57:17,524 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/astCYLFsAfVQdrdLTbS5?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-19 23:57:17,568 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpdbhfzqaw\5b5ecea6-7fa4-4ede-a973-30ba809bdcc4.mp3
+2024-12-19 23:57:17,570 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-19 23:57:19,546 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/astCYLFsAfVQdrdLTbS5?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-19 23:57:19,809 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpdbhfzqaw\bc8a58f6-c961-4c47-a6f8-9c7804e6f7d1.mp3
+2024-12-19 23:57:19,811 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-19 23:57:21,812 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/astCYLFsAfVQdrdLTbS5?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-19 23:57:21,900 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpdbhfzqaw\1efef7b2-7332-4d50-b08c-fd4d46989b69.mp3
+2024-12-21 15:24:25,509 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-21 15:24:25,509 - config.appconfig - INFO - Loaded configuration values:
+2024-12-21 15:24:25,509 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-21 15:24:25,513 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-21 15:24:25,513 - config.appconfig - INFO - VOICE_ID: as****************S5
+2024-12-21 15:24:26,294 - __main__ - INFO - VoiceTranslator initialized with extended language support
+2024-12-21 15:24:27,849 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2024-12-21 15:24:27,849 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-21 15:24:27,917 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-21 15:24:28,544 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-21 15:24:29,955 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v2/tunnel-request "HTTP/1.1 200 OK"
+2024-12-22 12:53:25,597 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 12:53:25,599 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 12:53:25,600 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 12:53:25,600 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 12:53:25,600 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 12:55:18,095 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 12:55:18,095 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 12:55:18,095 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 12:55:18,095 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 12:55:18,095 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 12:55:18,789 - __main__ - INFO - VoiceTranslator initialized with extended language support
+2024-12-22 12:55:20,577 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2024-12-22 12:55:20,604 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 12:55:20,633 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-22 12:55:21,238 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 12:55:22,612 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v2/tunnel-request "HTTP/1.1 200 OK"
+2024-12-22 13:12:01,498 - __main__ - INFO - Temporary directory cleaned up
+2024-12-22 13:12:17,376 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 13:12:17,377 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 13:12:17,377 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 13:12:17,377 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 13:12:17,377 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 13:12:17,838 - __main__ - INFO - VoiceTranslator initialized with updated language support
+2024-12-22 13:12:17,954 - __main__ - CRITICAL - Application failed to start: Audio.__init__() got an unexpected keyword argument 'sample_rate'
+2024-12-22 13:12:19,425 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 13:12:19,780 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 13:12:19,955 - __main__ - INFO - Temporary directory cleaned up
+2024-12-22 13:12:33,216 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 13:12:33,217 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 13:12:33,217 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 13:12:33,217 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 13:12:33,218 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 13:12:33,734 - __main__ - INFO - VoiceTranslator initialized with updated language support
+2024-12-22 13:12:33,860 - __main__ - CRITICAL - Application failed to start: Audio.__init__() got an unexpected keyword argument 'sample_rate'
+2024-12-22 13:12:35,424 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 13:12:35,780 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 13:12:37,802 - __main__ - INFO - Temporary directory cleaned up
+2024-12-22 13:13:37,542 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 13:13:37,542 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 13:13:37,542 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 13:13:37,543 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 13:13:37,543 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 13:13:37,966 - __main__ - INFO - VoiceTranslator initialized with updated language support
+2024-12-22 13:13:39,468 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2024-12-22 13:13:39,528 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-22 13:13:39,719 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 13:13:40,236 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 13:13:41,335 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v2/tunnel-request "HTTP/1.1 200 OK"
+2024-12-22 13:16:15,697 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 13:16:15,697 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 13:16:15,697 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 13:16:15,698 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 13:16:15,698 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 13:16:16,286 - __main__ - INFO - VoiceTranslator initialized successfully
+2024-12-22 13:16:17,487 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/startup-events "HTTP/1.1 200 OK"
+2024-12-22 13:16:17,532 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2024-12-22 13:16:17,773 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 13:16:18,248 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 13:16:19,331 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v2/tunnel-request "HTTP/1.1 200 OK"
+2024-12-22 13:25:56,057 - __main__ - INFO - Temporary directory cleaned up successfully
+2024-12-22 13:26:03,090 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 13:26:03,091 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 13:26:03,091 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 13:26:03,091 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 13:26:03,091 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 13:26:03,394 - __main__ - INFO - VoiceTranslator initialized successfully
+2024-12-22 13:26:04,565 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/startup-events "HTTP/1.1 200 OK"
+2024-12-22 13:26:04,591 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 13:26:04,610 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2024-12-22 13:26:05,157 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 13:26:06,270 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v2/tunnel-request "HTTP/1.1 200 OK"
+2024-12-22 13:30:54,008 - __main__ - INFO - Starting transcription for file: C:\Users\Dell\AppData\Local\Temp\gradio\2cb3542f4f5f0c0e79886c3eb59aeb70c1789b882163c84feb5a8bffb86875ee\audio.wav
+2024-12-22 13:32:30,504 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2024-12-22 13:32:30,978 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2024-12-22 13:32:31,444 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/1a9dab80-ff87-469c-a556-b64d4533d792 "HTTP/1.1 200 OK"
+2024-12-22 13:32:35,264 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/1a9dab80-ff87-469c-a556-b64d4533d792 "HTTP/1.1 200 OK"
+2024-12-22 13:32:39,024 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/1a9dab80-ff87-469c-a556-b64d4533d792 "HTTP/1.1 200 OK"
+2024-12-22 13:32:39,710 - __main__ - INFO - Transcription completed successfully
+2024-12-22 13:32:39,713 - __main__ - INFO - Starting text translation
+2024-12-22 13:32:48,889 - __main__ - INFO - Translation to Arabic completed
+2024-12-22 13:32:55,260 - __main__ - INFO - Translation to Chinese completed
+2024-12-22 13:33:03,943 - __main__ - INFO - Translation to Dutch completed
+2024-12-22 13:33:03,943 - __main__ - INFO - Translation to English completed
+2024-12-22 13:33:11,913 - __main__ - INFO - Translation to French completed
+2024-12-22 13:33:19,203 - __main__ - INFO - Translation to German completed
+2024-12-22 13:33:24,941 - __main__ - INFO - Translation to Hindi completed
+2024-12-22 13:33:31,489 - __main__ - INFO - Translation to Italian completed
+2024-12-22 13:33:36,708 - __main__ - INFO - Translation to Japanese completed
+2024-12-22 13:33:44,073 - __main__ - ERROR - Error translating to Korean: generator raised StopIteration
+2024-12-22 13:33:48,700 - __main__ - INFO - Translation to Portuguese completed
+2024-12-22 13:33:53,370 - __main__ - INFO - Translation to Russian completed
+2024-12-22 13:33:58,616 - __main__ - INFO - Translation to Spanish completed
+2024-12-22 13:34:05,580 - __main__ - ERROR - Error translating to Swedish: generator raised StopIteration
+2024-12-22 13:34:12,547 - __main__ - INFO - Translation to Turkish completed
+2024-12-22 13:34:18,140 - __main__ - INFO - Translation to Ukrainian completed
+2024-12-22 13:34:18,141 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:34:29,024 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:34:29,308 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\3d3a67e7-cfef-4a29-94fc-9b1af144b37e.mp3
+2024-12-22 13:34:29,308 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:34:36,059 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:34:36,081 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\b9c3fa04-1ed4-4991-9188-b18853e4591c.mp3
+2024-12-22 13:34:36,082 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:34:46,640 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:34:46,730 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\4eea6f54-aa93-44dd-b8b6-2c438124db7c.mp3
+2024-12-22 13:34:46,731 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:35:32,384 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:35:32,547 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\de74c9fb-54fe-456c-b461-685d1c6933f9.mp3
+2024-12-22 13:35:32,548 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:35:41,658 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:35:41,682 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\0c09fc81-78d7-4745-9263-c115e46bc8fb.mp3
+2024-12-22 13:35:41,683 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:35:50,351 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:35:50,395 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\10e51b45-e9e3-48ae-8764-e93998ff4564.mp3
+2024-12-22 13:35:50,397 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:35:56,113 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:35:56,145 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\7e1d15cb-2f4e-4e8d-93d7-04684bc8303a.mp3
+2024-12-22 13:35:56,148 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:36:05,018 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:36:05,056 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\39c00821-bdd6-4c13-b8ab-d86828b0a6f3.mp3
+2024-12-22 13:36:05,057 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:36:11,167 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:36:11,181 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\9c9fc0ef-1914-4ec4-8cb7-3fe1ea84b8a5.mp3
+2024-12-22 13:36:11,181 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:37:00,057 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:37:00,209 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\056ea824-4e9b-454b-b13d-2d3bfcd8fc3e.mp3
+2024-12-22 13:37:00,209 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:37:09,337 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:37:09,470 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\279167d6-17fd-4917-85ab-074b205011d5.mp3
+2024-12-22 13:37:09,471 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:37:17,335 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:37:17,401 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\e8855f8f-e381-4e51-a011-b8f4321aaa5f.mp3
+2024-12-22 13:37:17,401 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:37:26,623 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:37:26,632 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\68089bf6-3b26-4594-a93d-d8b8d90335cd.mp3
+2024-12-22 13:37:26,632 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:38:14,935 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:38:15,082 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\38b7d72b-07b9-49cb-983c-ea01d7566076.mp3
+2024-12-22 13:38:15,084 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:38:22,345 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:38:22,383 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\9cc6cc7b-3f51-48fc-84b8-44c0b92f62f2.mp3
+2024-12-22 13:38:22,384 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 13:38:28,056 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 13:38:28,074 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpyc3_6rrs\46b018d3-c49f-4689-9932-4e690cbeecaa.mp3
+2024-12-22 15:47:42,018 - __main__ - INFO - Temporary directory cleaned up successfully
+2024-12-22 15:47:55,621 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 15:47:55,623 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 15:47:55,625 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 15:47:55,625 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 15:47:55,625 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 15:47:56,201 - __main__ - INFO - VoiceTranslator initialized successfully
+2024-12-22 15:47:57,469 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/startup-events "HTTP/1.1 200 OK"
+2024-12-22 15:47:57,517 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2024-12-22 15:47:57,778 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 15:47:58,590 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 15:47:59,078 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 15:49:13,850 - __main__ - INFO - Starting transcription for file: C:\Users\Dell\AppData\Local\Temp\gradio\e3c89e395f61d78e1bfb76cc8b693ce46b3d7fe396150157c9ad913388cd40f2\audio.wav
+2024-12-22 15:49:22,054 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2024-12-22 15:49:22,678 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2024-12-22 15:49:23,088 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ad651ec7-5430-487c-9926-c700f72bfa1a "HTTP/1.1 200 OK"
+2024-12-22 15:49:26,552 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ad651ec7-5430-487c-9926-c700f72bfa1a "HTTP/1.1 200 OK"
+2024-12-22 15:49:26,566 - __main__ - INFO - Transcription completed successfully
+2024-12-22 15:49:26,568 - __main__ - INFO - Starting text translation
+2024-12-22 15:49:31,519 - __main__ - INFO - Translation to Arabic completed
+2024-12-22 15:49:32,998 - __main__ - INFO - Translation to Chinese completed
+2024-12-22 15:49:35,259 - __main__ - INFO - Translation to French completed
+2024-12-22 15:49:36,691 - __main__ - INFO - Translation to Russian completed
+2024-12-22 15:49:36,691 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 15:49:40,725 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 15:49:41,111 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpulfodocp\67f42115-19fb-4ead-91bb-60f6c16a7645.mp3
+2024-12-22 15:49:41,114 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 15:49:43,265 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 15:49:43,432 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpulfodocp\f3c3809d-d82b-458d-af6a-e417d416f8be.mp3
+2024-12-22 15:49:43,436 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 15:49:45,797 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 15:49:45,926 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpulfodocp\a0021ab3-8d5b-47df-9695-176fe639d812.mp3
+2024-12-22 15:49:45,926 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 15:49:48,069 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 15:49:48,155 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpulfodocp\24656f71-903f-49d2-931c-68a2a8df65ec.mp3
+2024-12-22 15:53:51,829 - __main__ - INFO - Temporary directory cleaned up successfully
+2024-12-22 15:54:07,764 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 15:54:07,764 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 15:54:07,764 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 15:54:07,767 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 15:54:07,767 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 15:54:08,450 - __main__ - INFO - VoiceTranslator initialized successfully
+2024-12-22 15:54:09,905 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/startup-events "HTTP/1.1 200 OK"
+2024-12-22 15:54:09,977 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2024-12-22 15:54:10,209 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 15:54:10,625 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 15:54:12,973 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v2/tunnel-request "HTTP/1.1 200 OK"
+2024-12-22 17:33:50,462 - __main__ - INFO - Temporary directory cleaned up successfully
+2024-12-22 17:34:49,102 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 17:34:49,102 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 17:34:49,102 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 17:34:49,102 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 17:34:49,107 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 17:34:49,428 - __main__ - INFO - VoiceTranslator initialized successfully
+2024-12-22 17:34:50,168 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/startup-events "HTTP/1.1 200 OK"
+2024-12-22 17:34:50,344 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2024-12-22 17:34:50,719 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 17:34:51,292 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 17:34:52,208 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v2/tunnel-request "HTTP/1.1 200 OK"
+2024-12-22 17:42:28,840 - __main__ - INFO - Temporary directory cleaned up successfully
+2024-12-22 17:42:41,607 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 17:42:41,607 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 17:42:41,607 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 17:42:41,607 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 17:42:41,607 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 17:42:42,140 - __main__ - INFO - VoiceTranslator initialized successfully
+2024-12-22 17:42:42,957 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/startup-events "HTTP/1.1 200 OK"
+2024-12-22 17:42:43,102 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2024-12-22 17:42:43,522 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 17:42:44,034 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 17:42:44,919 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v2/tunnel-request "HTTP/1.1 200 OK"
+2024-12-22 17:44:20,225 - __main__ - INFO - Starting transcription for file: C:\Users\Dell\AppData\Local\Temp\gradio\9ace849f25515e1d656eb0628dbe675dd52a1109514d67318f8509b010bc5393\audio.wav
+2024-12-22 17:44:30,786 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2024-12-22 17:44:31,456 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2024-12-22 17:44:31,818 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/1f0eed16-f0b5-4b1e-91f3-b945de2bed74 "HTTP/1.1 200 OK"
+2024-12-22 17:44:35,282 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/1f0eed16-f0b5-4b1e-91f3-b945de2bed74 "HTTP/1.1 200 OK"
+2024-12-22 17:44:35,292 - __main__ - INFO - Transcription completed successfully
+2024-12-22 17:44:35,292 - __main__ - INFO - Starting text translation
+2024-12-22 17:44:40,770 - __main__ - INFO - Translation to Arabic completed
+2024-12-22 17:44:42,690 - __main__ - INFO - Translation to Chinese completed
+2024-12-22 17:44:44,571 - __main__ - INFO - Translation to Japanese completed
+2024-12-22 17:44:46,488 - __main__ - INFO - Translation to Korean completed
+2024-12-22 17:44:48,452 - __main__ - INFO - Translation to Russian completed
+2024-12-22 17:44:48,453 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:44:53,417 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:44:53,932 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmp5ilel9yb\68df2127-d377-494f-9525-b49bc945b547.mp3
+2024-12-22 17:44:53,932 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:44:57,592 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:44:57,832 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmp5ilel9yb\02c716d0-b199-490f-8f46-57b7ebbdba87.mp3
+2024-12-22 17:44:57,834 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:45:01,216 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:45:01,316 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmp5ilel9yb\011a8288-46c7-4c1f-ade6-539e42cb74d4.mp3
+2024-12-22 17:45:01,320 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:45:05,196 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:45:05,548 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmp5ilel9yb\408cd49f-c5d1-4f3f-90ec-b5bbbf120324.mp3
+2024-12-22 17:45:05,549 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:45:09,427 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:45:09,530 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmp5ilel9yb\07e527ca-0d7d-4339-bc37-a2c7fe5806ae.mp3
+2024-12-22 17:51:00,028 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 17:51:00,028 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 17:51:00,032 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 17:51:00,032 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 17:51:00,033 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 17:51:00,540 - __main__ - INFO - VoiceTranslator initialized successfully
+2024-12-22 17:51:01,532 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7862/startup-events "HTTP/1.1 200 OK"
+2024-12-22 17:51:01,610 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7862/ "HTTP/1.1 200 OK"
+2024-12-22 17:51:01,902 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 17:51:02,508 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 17:51:03,469 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v2/tunnel-request "HTTP/1.1 200 OK"
+2024-12-22 17:52:42,625 - __main__ - INFO - Starting transcription for file: C:\Users\Dell\AppData\Local\Temp\gradio\264f7f2499b7034302f3a414139f5debeda824ccef18168b63aed422c7fa3596\audio.wav
+2024-12-22 17:52:51,365 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2024-12-22 17:52:51,748 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2024-12-22 17:52:52,290 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/60c41c62-55e0-4d75-abcf-dfbfcfe81dc7 "HTTP/1.1 200 OK"
+2024-12-22 17:52:55,880 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/60c41c62-55e0-4d75-abcf-dfbfcfe81dc7 "HTTP/1.1 200 OK"
+2024-12-22 17:52:55,880 - __main__ - INFO - Transcription completed successfully
+2024-12-22 17:52:55,880 - __main__ - INFO - Starting text translation
+2024-12-22 17:53:05,773 - __main__ - INFO - Translation to Arabic completed
+2024-12-22 17:53:07,298 - __main__ - INFO - Translation to Chinese completed
+2024-12-22 17:53:09,294 - __main__ - INFO - Translation to French completed
+2024-12-22 17:53:10,738 - __main__ - INFO - Translation to Japanese completed
+2024-12-22 17:53:12,350 - __main__ - INFO - Translation to Korean completed
+2024-12-22 17:53:13,910 - __main__ - INFO - Translation to Russian completed
+2024-12-22 17:53:13,910 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:53:19,662 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:53:19,903 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpz0i2o105\61f8031d-05e6-4c97-8ebe-b59a8739b717.mp3
+2024-12-22 17:53:19,905 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:53:23,295 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:53:23,396 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpz0i2o105\bd0299dd-11a2-421d-9d77-87a1ea89a564.mp3
+2024-12-22 17:53:23,398 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:53:27,002 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:53:27,064 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpz0i2o105\eeefed3a-99fc-4658-8465-cbae8c55d86e.mp3
+2024-12-22 17:53:27,064 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:53:30,782 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:53:30,853 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpz0i2o105\c4160321-afff-4d12-947e-0eca55c4668f.mp3
+2024-12-22 17:53:30,855 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:53:34,270 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:53:34,293 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpz0i2o105\83438421-50e7-41ec-9b3d-22f3d94d0c43.mp3
+2024-12-22 17:53:34,293 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:53:38,049 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:53:38,120 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpz0i2o105\21695df2-763c-496b-8290-a03e59bafbdd.mp3
+2024-12-22 17:57:16,992 - __main__ - INFO - Temporary directory cleaned up successfully
+2024-12-22 17:57:33,988 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 17:57:33,988 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 17:57:33,988 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 17:57:33,988 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 17:57:33,988 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 17:57:34,652 - __main__ - INFO - VoiceTranslator initialized successfully
+2024-12-22 17:57:36,326 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7862/startup-events "HTTP/1.1 200 OK"
+2024-12-22 17:57:36,409 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7862/ "HTTP/1.1 200 OK"
+2024-12-22 17:57:36,753 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 17:57:37,056 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 17:57:38,640 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v2/tunnel-request "HTTP/1.1 200 OK"
+2024-12-22 17:58:50,005 - __main__ - INFO - Starting transcription for file: C:\Users\Dell\AppData\Local\Temp\gradio\b5f9fdeba9a3c0dc0dac34608d139192967008712190dc60d9a75e8e9a6eefb4\audio.wav
+2024-12-22 17:59:03,201 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2024-12-22 17:59:03,794 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2024-12-22 17:59:04,203 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/dfe09937-b53c-4f8a-af36-1dd0d85b0ae3 "HTTP/1.1 200 OK"
+2024-12-22 17:59:07,682 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/dfe09937-b53c-4f8a-af36-1dd0d85b0ae3 "HTTP/1.1 200 OK"
+2024-12-22 17:59:07,682 - __main__ - INFO - Transcription completed successfully
+2024-12-22 17:59:07,682 - __main__ - INFO - Starting text translation
+2024-12-22 17:59:11,475 - __main__ - INFO - Translation to Arabic completed
+2024-12-22 17:59:13,681 - __main__ - INFO - Translation to Chinese completed
+2024-12-22 17:59:15,331 - __main__ - INFO - Translation to French completed
+2024-12-22 17:59:17,580 - __main__ - INFO - Translation to Japanese completed
+2024-12-22 17:59:19,454 - __main__ - INFO - Translation to Korean completed
+2024-12-22 17:59:21,430 - __main__ - INFO - Translation to Russian completed
+2024-12-22 17:59:21,430 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:59:27,340 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:59:27,552 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmp0aa0mcvd\202ec329-e637-4736-abe0-38c581030c3f.mp3
+2024-12-22 17:59:27,552 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:59:32,360 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:59:32,432 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmp0aa0mcvd\02afd306-efaa-43fc-9022-e5d73668a9cd.mp3
+2024-12-22 17:59:32,432 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:59:37,689 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:59:37,725 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmp0aa0mcvd\8fc2b875-d56a-4022-85bc-46d3e99dfb41.mp3
+2024-12-22 17:59:37,733 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:59:42,190 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:59:42,267 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmp0aa0mcvd\29f013fc-f6fe-4c9f-9bcc-dbff08db018f.mp3
+2024-12-22 17:59:42,268 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:59:45,778 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:59:45,815 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmp0aa0mcvd\2c04ab89-9412-438d-a338-e08ab9efeb7a.mp3
+2024-12-22 17:59:45,815 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 17:59:49,350 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 17:59:49,471 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmp0aa0mcvd\4599b361-5d1d-41bf-a915-7b77b6104e7c.mp3
+2024-12-22 18:07:25,755 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 18:07:25,755 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 18:07:25,755 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 18:07:25,759 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 18:07:25,759 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 18:07:26,390 - __main__ - INFO - VoiceTranslator initialized successfully
+2024-12-22 18:07:27,908 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 18:07:28,043 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2024-12-22 18:07:28,166 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-22 18:07:28,340 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 18:07:30,260 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v2/tunnel-request "HTTP/1.1 200 OK"
+2024-12-22 18:13:04,898 - __main__ - INFO - Temporary directory cleaned up successfully
+2024-12-22 18:13:17,791 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 18:13:17,791 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 18:13:17,793 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 18:13:17,793 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 18:13:17,795 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 18:13:18,492 - __main__ - INFO - VoiceTranslator initialized successfully
+2024-12-22 18:13:19,628 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2024-12-22 18:13:19,671 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-22 18:13:19,867 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 18:13:20,437 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 18:13:21,691 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v2/tunnel-request "HTTP/1.1 200 OK"
+2024-12-22 18:14:48,881 - __main__ - INFO - Starting transcription for file: C:\Users\Dell\AppData\Local\Temp\gradio\8e2ca83b8e21a4dde93d90155b06c3b51d791c61f427aae6ede145ca8169ca18\audio.wav
+2024-12-22 18:14:53,856 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2024-12-22 18:14:54,258 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2024-12-22 18:14:54,677 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/add1b68f-d1a9-4c00-895a-4b0da8c2d71f "HTTP/1.1 200 OK"
+2024-12-22 18:14:58,217 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/add1b68f-d1a9-4c00-895a-4b0da8c2d71f "HTTP/1.1 200 OK"
+2024-12-22 18:14:58,221 - __main__ - INFO - Transcription completed successfully
+2024-12-22 18:14:58,221 - __main__ - INFO - Starting text translation
+2024-12-22 18:15:02,177 - __main__ - INFO - Translation to Arabic completed
+2024-12-22 18:15:04,608 - __main__ - INFO - Translation to Chinese completed
+2024-12-22 18:15:06,968 - __main__ - INFO - Translation to Italian completed
+2024-12-22 18:15:08,705 - __main__ - INFO - Translation to Japanese completed
+2024-12-22 18:15:10,647 - __main__ - INFO - Translation to Korean completed
+2024-12-22 18:15:10,650 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 18:15:13,416 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 18:15:13,509 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpk8m2dd1o\a5b29477-8c77-4400-895c-5f83db0b16e2.mp3
+2024-12-22 18:15:13,509 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 18:15:14,691 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 18:15:14,709 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpk8m2dd1o\a0276f11-d4dc-4875-b0d3-2a1a34afdc73.mp3
+2024-12-22 18:15:14,709 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 18:15:16,181 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 18:15:16,379 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpk8m2dd1o\9b545dc2-549d-4d75-ba2b-2b52c6f0a06f.mp3
+2024-12-22 18:15:16,384 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 18:15:17,624 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 18:15:17,630 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpk8m2dd1o\b9a4208b-466d-4309-b394-6774fee073ba.mp3
+2024-12-22 18:15:17,630 - __main__ - INFO - Starting text-to-speech conversion
+2024-12-22 18:15:19,107 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 18:15:19,111 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmpk8m2dd1o\1f18c746-1e7e-4775-aeb6-4b96409a3fa0.mp3
+2024-12-22 18:18:40,776 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 18:18:40,776 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 18:18:40,776 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 18:18:40,776 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 18:18:40,776 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 18:18:42,083 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/startup-events "HTTP/1.1 200 OK"
+2024-12-22 18:18:42,161 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2024-12-22 18:18:44,764 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 18:18:45,877 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 18:19:30,485 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-22 18:19:30,494 - config.appconfig - INFO - Loaded configuration values:
+2024-12-22 18:19:30,498 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-22 18:19:30,501 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-22 18:19:30,503 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-22 18:19:31,596 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/startup-events "HTTP/1.1 200 OK"
+2024-12-22 18:19:31,650 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2024-12-22 18:19:32,176 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 18:19:32,553 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-22 18:19:32,891 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-22 18:20:28,148 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2024-12-22 18:20:28,526 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2024-12-22 18:20:28,894 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/dcf1618c-e4ab-4ba4-a412-d1a00ee10956 "HTTP/1.1 200 OK"
+2024-12-22 18:20:32,294 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/dcf1618c-e4ab-4ba4-a412-d1a00ee10956 "HTTP/1.1 200 OK"
+2024-12-22 18:20:52,868 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 18:20:55,796 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 18:20:59,531 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 18:21:02,559 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 18:21:05,782 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-22 18:21:09,366 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-23 08:42:12,135 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-23 08:42:12,141 - config.appconfig - INFO - Loaded configuration values:
+2024-12-23 08:42:12,141 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-23 08:42:12,144 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-23 08:42:12,144 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-23 08:43:46,689 - config.appconfig - INFO - Configuration loaded successfully
+2024-12-23 08:43:46,689 - config.appconfig - INFO - Loaded configuration values:
+2024-12-23 08:43:46,689 - config.appconfig - INFO - ASSEMBLYAI_API_KEY: b4****************************7a
+2024-12-23 08:43:46,692 - config.appconfig - INFO - ELEVENLABS_API_KEY: sk***********************************************86
+2024-12-23 08:43:46,692 - config.appconfig - INFO - VOICE_ID: X8****************bQ
+2024-12-23 08:43:48,575 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2024-12-23 08:43:48,665 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"

@@ -1,0 +1,28 @@
+2024-12-19 00:10:29,561 - __main__ - CRITICAL - Application failed to start: No module named 'config'
+2024-12-19 00:10:29,588 - httpx - INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+2024-12-19 00:11:55,463 - __main__ - CRITICAL - Application failed to start: No module named 'config'
+2024-12-19 23:38:29,383 - __main__ - CRITICAL - Application failed to start: No module named 'config'
+2024-12-23 09:18:22,049 - __main__ - INFO - VoiceTranslator initialized successfully
+2024-12-23 09:18:23,243 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2024-12-23 09:18:23,302 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-23 09:18:23,870 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-23 09:18:24,131 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-23 09:18:24,757 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-12-23 09:18:57,165 - __main__ - INFO - Starting transcription for file: C:\Users\Dell\AppData\Local\Temp\gradio\0be043d0cfc38d4f1eb1ebde195d35697abf5f4943bde4110e1aeb0bbac318cd\audio.wav
+2024-12-23 09:19:05,373 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2024-12-23 09:19:05,815 - httpx - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2024-12-23 09:19:06,223 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ce51a22f-27ce-4192-85e3-1196af36edf3 "HTTP/1.1 200 OK"
+2024-12-23 09:19:09,647 - httpx - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/ce51a22f-27ce-4192-85e3-1196af36edf3 "HTTP/1.1 200 OK"
+2024-12-23 09:19:09,653 - __main__ - INFO - Transcription completed successfully
+2024-12-23 09:19:26,359 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-23 09:19:26,489 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmplfba0o99\6b06c5d6-60c2-4676-9ce0-b4e25783f896.mp3
+2024-12-23 09:19:27,958 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-23 09:19:28,017 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmplfba0o99\bc7db868-d31d-49c3-8b33-02bc31c9280a.mp3
+2024-12-23 09:19:29,613 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-23 09:19:29,617 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmplfba0o99\331d2eb2-dafd-4907-836e-e7f07c4b6ab0.mp3
+2024-12-23 09:19:31,162 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-23 09:19:31,166 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmplfba0o99\76a1fffd-ffdb-4255-a94b-c160ed77cc82.mp3
+2024-12-23 09:19:32,902 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-23 09:19:32,986 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmplfba0o99\51cdefe8-2c5d-40db-aeba-d3828733dd9c.mp3
+2024-12-23 09:19:34,520 - httpx - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/X8p6aGE1votZZk0BMvbQ?optimize_streaming_latency=0&output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2024-12-23 09:19:34,570 - __main__ - INFO - Audio file saved successfully: C:\Users\Dell\AppData\Local\Temp\tmplfba0o99\7d42ae25-99f4-4b45-a794-4848ba8d34e3.mp3
